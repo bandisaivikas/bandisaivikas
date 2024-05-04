@@ -1,6 +1,4 @@
-- 👋 HI, my group name is targarens
-- member:-bandi sai vikas,k.navneeth
-- our's project is recognition of hand written digits
+- 👋 HI, my name is saivikas
 
 <!---
 bandisaivikas/bandisaivikas is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
