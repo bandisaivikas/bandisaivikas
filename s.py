@@ -14,7 +14,7 @@ def predict_digit(image_path):
         img = cv2.imread(image_path)[:,:,0]
         img = np.invert(np.array([img]))
         prediction = model.predict(img)
-        digit_label.config(text="The number is probably a {}".format(np.argmax(prediction)))
+        digit_label.config(text="TThe selected number is {}".format(np.argmax(prediction)))
         plt.imshow(img[0], cmap=plt.cm.binary)
         plt.show()
     except Exception as e:
