@@ -60,11 +60,11 @@ if train_new_model:
     print(val_acc)
 
     # Saving the model
-    model.save('/Users/saivikasbandi/Downloads/handwritten-digits-recognition-master/handwritten_digits.h5')
+    model.save('handwritten_digits.h5')
 
 else:
     # Load the model
-    model = tf.keras.models.load_model('/Users/saivikasbandi/Downloads/handwritten-digits-recognition-master/handwritten_digits.model')
+    model = tf.keras.models.load_model('handwritten_digits.model')
 
 # Create a Tkinter window
 root = tk.Tk()
